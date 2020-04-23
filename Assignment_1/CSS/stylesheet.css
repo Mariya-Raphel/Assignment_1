@@ -1,0 +1,61 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	} 
+
+body{
+	font-size: 120%;
+	
+}
+/*.row{width:100%;}*/
+
+@media (min-width: 992px){
+	.box1,.box2,.box3{width:33.33%;}
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.box1,.box2{width: 50%;}
+	.box3{width: 100%}
+}
+@media (max-width: 767px) {.box1,.box2,.box3{width: 100%;}}
+
+
+h1 {
+		color: black;
+		font-size: 175%;
+		text-align: center;
+		background-color: gray;
+		margin-top:30px;
+		margin-bottom: 30px;
+
+	}
+
+.art{
+		color:white;
+		font-weight:1000;
+		clear: right;
+		margin-: 5px;
+		padding: 5px;
+		/*overflow: auto;*/
+	}
+.p {
+		/*background: url('spiral.jpg') no-repeat bottom-left 0.1% 0.1% gray;*/
+		background-color: gray;
+		font-weight: bold;
+		/*margin-right: 5px;
+		margin-bottom: 5px;*/
+		/*margin-bottom: auto;*/
+			border: 3px solid black;
+			/*
+			width: 33.33%;*/
+			height: 150px;
+		/*	float:left;*/
+
+   }
+   .box1,.box2,.box3{
+
+   		padding:10px;
+   		float: left;
+   }
